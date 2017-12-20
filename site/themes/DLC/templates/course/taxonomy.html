@@ -6,7 +6,7 @@
     </header>
 
     <article class="list">
-        {{ collection:blog taxonomy="true" paginate="true" as="posts" limit="10" }}
+        {{ collection:course taxonomy="true" paginate="true" as="posts" limit="10" }}
             {{ if no_results }}
                 <p>No "{{ title }}" posts.</p>
             {{ /if }}
@@ -16,7 +16,7 @@
             {{ /posts }}
 
             {{ partial:pagination }}
-        {{ /collection:blog }}
+        {{ /collection:course }}
     </article>
 
 </section>

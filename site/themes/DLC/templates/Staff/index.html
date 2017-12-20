@@ -1,0 +1,37 @@
+<section class="container">
+
+		<h2>{{ title }}</h2>
+		{{ content }}
+
+
+</section>
+
+<section class="container">
+
+	<article class="yearbook">
+		<ul>
+		{{ collection:Staff as="entries" sort="department"}}
+		
+
+
+			{{ entries }}
+
+
+			<li>
+
+
+			<div class="portrait" style="background-image: url({{ url }}{{ photo|img }});">&nbsp;</div>
+			<a class="name" href="mailto:{{ email }}" target="blank">{{ first_name }} {{ last_name }}</a>
+
+			<h3 class="title"><a class="name" href="mailto:{{ email }}" target="blank">{{ job_title }}</a></h3>
+			</li>
+
+
+
+			 {{ /entries }}
+
+	
+		{{ /collection:Staff }}
+	</ul></article>
+
+</section>
