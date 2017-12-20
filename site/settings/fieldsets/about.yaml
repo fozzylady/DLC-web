@@ -1,0 +1,19 @@
+title: About
+hide: true
+taxonomies:
+  tags: true
+fields:
+  title:
+    type: title
+    display: Title
+    localizable: true
+  content:
+    type: markdown
+    display: Content
+  is_hidden:
+    type: checkboxes
+    display: Is Hidden
+    instructions: Hide Page
+    width: 50
+    validate: is_hidden:isnt="true"
+    default: 'false'

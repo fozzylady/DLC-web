@@ -1,0 +1,39 @@
+<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-right">
+						<p class="site">www.sunwestDLC.ca</p>
+						<p class="num"> <a href="tel:+13062521000">(306) 252-1000</a></p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a  href="{{ site_url }}"><img src="{{ theme:img src="dlc-logo.png" }}"></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+							 <ul>
+                {{ nav from="/" include_home="false" scope="tag" hide_from_nav:isnt="true" }}
+                    <li{{ if is_current or is_parent }} class="active"{{ /if }}>
+                        <a href="{{ url }}">{{ tag:nav_title or title }}
+                        </a>
+                    </li>
+                {{ /nav }}
+                
+							<li><a href="{{ site_url }}/log-in" class="btn-cta"><span>Login</span></a></li>
+							<li><a href="{{ site_url }}/registration"  class="btn-cta"><span>Register</span></a></li>
+
+            </ul>
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>

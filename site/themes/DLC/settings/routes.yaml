@@ -1,0 +1,5 @@
+collections:
+  course: '/course/{slug}'
+  
+taxonomies:
+  tags: '/course/tags/{slug}'

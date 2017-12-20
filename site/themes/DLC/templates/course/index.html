@@ -1,0 +1,22 @@
+<section class="container">
+
+		<h2>{{ title }}</h2>
+		{{ content }}
+
+
+</section>
+
+<section class="container">
+
+	<article class="list">
+		{{ collection:course as="entries" }}
+			
+			{{ entries }}			
+				{{ partial:courseblock }}
+			 {{ /entries }}
+
+			{{ partial:pagination }}
+		{{ /collection:course }}
+	</article>
+
+</section>

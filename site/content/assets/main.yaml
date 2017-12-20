@@ -1,0 +1,7 @@
+title: Main Assets
+path: assets
+url: /assets
+assets:
+  instructor_photo/aaron.jpg:
+    title: aaron
+    alt: aaron

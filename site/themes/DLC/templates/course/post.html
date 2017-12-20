@@ -1,0 +1,26 @@
+<section class="regular">
+
+	<header>
+		<h1>{{ title }}</h1>
+		{{ delivery_method wrap="h2" }}
+	</header>
+
+	<article class="content">
+
+		{{ description }}
+
+
+{{ supplied_resources }}
+
+{{ instructor }}
+
+		<ul class="tags">
+		{{ tags }}
+			<li><a href="{{ url }}">{{ title }}</a></li>
+		{{ /tags }}
+		</ul>
+	</article>
+
+</section>
+
+{{ partial:article-footer }}

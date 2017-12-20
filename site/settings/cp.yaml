@@ -1,0 +1,20 @@
+start_page: dashboard
+date_format: Y/n/d
+pagination_size: 50
+widgets:
+  - 
+    type: collection
+    collection: course
+    limit: 5
+    importance: 3
+    0: -
+  - 
+    type: updater
+  - 
+    type: form
+    form: contact
+    limit: 5
+    title: Recent Submissions
+    fields:
+      - name
+      - email

@@ -1,0 +1,28 @@
+---
+title: DLCgo
+hide_from_nav: true
+id: a1159b11-c1b8-4098-9cfa-643324452066
+---
+<div class="row">
+<div class="col-md-8 col-sm-6 col-xs-12">
+<div class="box-row">
+
+
+<p>We're excited to announce that DLCgo is now live.</p>
+
+<h2>DLCgo? What's that?</h2>
+
+<p>DLCgo is a web-based portal through which students, parents and - if applicable - school Administrators can track DLC student enrolments and conveniently add new course requests. By linking this space with Moodle, students can now access all of their online course materials through their easy-to-navigate DLCgo dashboard.</p>
+<a class="btn btn-primary" href="https://www.dlcgo.ca" onclick="ga(‘send’, ‘event’, ‘ DLCgo’, ‘Click’, ‘visitDLCgo’);" target="_blank">Take me to DLCgo</a>
+
+<p> </p>
+</div>
+</div>
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="box-row"> 
+<h3>Moodle</h3>
+
+<p>If you are a Sun West student, you can still log into your moodle account.</p>
+<br />
+<a class="btn" href="https://cms.sunwestsd.ca/" onclick="ga(‘send’, ‘event’, ‘ moodle’, ‘Click’, ‘visitmoodle’);" target="_blank">Take me to Moodle</a></div>

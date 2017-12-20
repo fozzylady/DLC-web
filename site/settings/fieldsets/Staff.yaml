@@ -1,0 +1,29 @@
+taxonomies: false
+title: Staff
+create_title: Staff
+fields:
+  photo:
+    type: assets
+    display: Photo
+    instructions: staff photo
+    container: main
+    folder: instructor_photo
+    restrict: true
+    max_files: 1
+  first_name:
+    type: text
+    display: First Name
+    width: 50
+  last_name:
+    type: text
+    display: Last Name
+    width: 50
+  department:
+    type: list
+    display: Department
+  email:
+    type: text
+    display: Email
+  job_title:
+    type: text
+    display: Job Title
