@@ -1,8 +1,7 @@
-photo: /assets/instructor_photo/1QP1363.JPG
+photo: /assets/instructor_photo/1QP1363.jpg
 first_name: Allison
 last_name: de Hoop
-department:
-  - DLC Team
+department: DLC Team
 email: allison.deHoop@sunwestsd.ca
 job_title: Kindergarten, Grade 1, Grade 2
 title: Allison de Hoop

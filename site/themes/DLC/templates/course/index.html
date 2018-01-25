@@ -1,17 +1,29 @@
 <section class="container">
 
-		<h2>{{ title }}</h2>
+
 		{{ content }}
 
 
 </section>
 
 <section class="container">
+<div class="span12" id="search_area_course">
+	<form class="navbar-form navbar-right" role="search" action="{{ link to='search' }}">
+					<div class="form-group">
+							<input type="text" class="form-control search" name="q" placeholder="Search for a Course...">
+					</div>
+			</form>
 
+
+</div>
+</section>
+
+<section class="container">
+<h2>Our Courses</h2>
 	<article class="list">
 		{{ collection:course as="entries" }}
-			
-			{{ entries }}			
+
+			{{ entries }}
 				{{ partial:courseblock }}
 			 {{ /entries }}
 

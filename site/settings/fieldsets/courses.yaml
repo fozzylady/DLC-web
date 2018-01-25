@@ -7,28 +7,6 @@ fields:
     type: title
     display: Title
     localizable: true
-  pre_requisite:
-    type: text
-    display: Pre-requisite
-  description:
-    type: textarea
-    display: Description
-  instructor:
-    type: collection
-    display: Instructor
-    collection:
-      - Staff
-    max_items: "1"
-    mode: tags
-  supplied_resources:
-    type: markdown
-    display: '  Supplied Resources'
-  suggested_career_pathways:
-    type: markdown
-    display: Suggested Career Pathways
-  units_of_study:
-    type: list
-    display: Units of Study
   delivery_method:
     type: select
     display: Delivery Method
@@ -37,8 +15,32 @@ fields:
       Online Asynchronous: Online Asynchronous
       Correspondence (Paper-Based): Correspondence (Paper-Based)
       Synchronous: Synchronous
+      Online Asynchronous and Synchronous (for Sun West students): Online Asynchronous and Synchronous (for Sun West students)
+      Online Asynchronous with Print resources: Online Asynchronous with Print resources
     width: 33
     default: Online Asynchronous
+  pre_requisite:
+    type: text
+    display: Pre-requisite
+  instructor:
+    type: collection
+    display: Instructor
+    collection:
+      - Staff
+    max_items: "1"
+    mode: tags
+  description:
+    type: markdown
+    display: Description
+  units_of_study:
+    type: list
+    display: Units of Study
+  supplied_resources:
+    type: markdown
+    display: Supplied Resources
   required_resources:
     type: markdown
     display: Required Resources
+  suggested_career_pathways:
+    type: markdown
+    display: Suggested Career Pathways

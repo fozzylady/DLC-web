@@ -1,26 +1,100 @@
-<section class="regular">
-
-	<header>
-		<h1>{{ title }}</h1>
-		{{ delivery_method wrap="h2" }}
-	</header>
-
-	<article class="content">
-
-		{{ description }}
 
 
-{{ supplied_resources }}
 
-{{ instructor }}
+<div style="background-color:#5f5740">
+<section class="container">
 
+	<div class="row">
+	<div class="col-md-12 fh5co-heading">
+		<h1 style="color:#ffffff;">{{ title }}</h1>
+	</div>
+	</div>
+</div>
+</div>
+<BR>
+<section class="container">
+
+	<div class="row" style="background: rgb(213, 206, 181);padding:20px 0px">
+		{{ if pre_requisite }}<div class="col-md-6 item-block">
+					<h3>Pre-requisite</h3> {{ pre_requisite }}</p>
+		</div>{{else }}
+
+		{{ /if }}
+		<div class="col-md-6 item-block">
+				<h3>Delivery</h3>
+				 {{ delivery_method }}</P>
+		</div>
+	</div>
+
+
+
+
+
+<article class="content">
+
+<h3>Course description</h3>
+		<p>{{ description }}</p>
+
+{{ if units_of_study }}
+<h4>Units of Study</h4>
+
+<ul>
+{{ units_of_study }}
+	<li>{{ value }}</li>
+{{ /units_of_study }}
+</ul>
+{{else }}
+
+{{ /if }}
+
+{{ if supplied_resources }}
+<hr>
+<h4>DLC Supplied Resources</h4>
+	<P>{{ supplied_resources }}</p>
+
+{{else }}
+
+{{ /if }}
+
+
+{{ if required_resources }}
+<h4>Additional Resources</h4>
+<p>{{ required_resources }}</p>
+{{else }}
+
+{{ /if }}
+
+{{ if suggested_career_pathways }}
+<hr>
+<h4>Suggested Career Pathways</h4>
+<p>{{ suggested_career_pathways }}</p>
+
+{{else }}
+
+{{ /if }}
+{{ if tags }}
+<h4>Tags</h4>
 		<ul class="tags">
 		{{ tags }}
 			<li><a href="{{ url }}">{{ title }}</a></li>
 		{{ /tags }}
 		</ul>
 	</article>
+	{{else }}
 
+	{{ /if }}
 </section>
 
-{{ partial:article-footer }}
+
+<div class="fh5co-cta" style="background-color: #94abac;">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="col-md-12 text-center animate-box fadeInUp animated-fast">
+				<h1>Register</h1>
+
+
+<p>From Kindergarten to Grade 12, you choose how, when and where learning aligns with your interests, lifestyle and schedule. Then we provide the resources and support that you can access when and where it works for you.</p>
+				<p><a href="{{ site_url }}registration" class="btn btn-primary with-arrow">Get started now! <i class="icon-arrow-right"></i></a></p>
+			</div>
+		</div>
+	</div>

@@ -1,8 +1,7 @@
 photo: /assets/instructor_photo/staceyH.jpg
-first_name: 'Stacey '
+first_name: Stacey
 last_name: Hertz
-department:
-  - Office Staff and Reception
+department: Office Staff and Reception
 email: stacey.hertz@sunwestsd.ca
 job_title: Front Office Staff
 title: Stacey Hertz

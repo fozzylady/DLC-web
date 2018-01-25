@@ -11,12 +11,12 @@ id: c7be79c2-1445-47e7-8e93-99f2d87af1a8
 </div>
 </div>
 
-<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="col-md-4 col-sm-6 col-xs-12 text-center">
 <div class="box-row">
-<h2 style="text-align: center;"><a href="home-based-learning/personalized-learning-in-k-6">Explore Personalized Learning<br />
+<h2><a href="home-based-learning/personalized-learning-in-k-6">Explore Personalized Learning<br />
 in the Elementary Years </a></h2>
 <BR>
-<a href="home-based-learning/personalized-learning-in-k-6" class="btn btn-primary btn-outline with-arrow">Read More</a>
+<a href="home-based-learning/personalized-learning-in-k-6" class="btn btn-primary">Read More</a>
 </div>
 </div>
 </div>
@@ -26,37 +26,34 @@ in the Elementary Years </a></h2>
 <p> </p>
 
 <div style="background:#D5CEB5;padding:20px;">
-	
-	
+
+
 <div class="row">
  <div class="col-sm-4 col-xs-12">
         <div class="box">
-			
-
-			<h3>We are here to provide <access>access</access>.</h3>
-
-			<p>We believe that all learners - regardless of how or where they choose to study - should have access to quality educational resources and support. </p>
+<h3>We are here to provide <access>access</access>.</h3>
+	<p>We believe that all learners - regardless of how or where they choose to study - should have access to quality educational resources and support. </p>
         </div></div>
-        
+
  <div class="col-sm-4 col-xs-12">
         <div class="box">
-			
+
 
 			<h3>We are here to support.</h3>
 
 			<p>Our role is to serve as part of a collaborative team that is focused on helping learners achieve academic success.</p>
         </div></div>
-        
+
  <div class="col-sm-4 col-xs-12">
         <div class="box">
-			
+
 
 			<h3>We are here to facilitate choice.</h3>
 
 			<p>We invite the learner - along with his/her support team and learning mentors – choose the pace, path, time and place that best suits them.   </p>
         </div></div></div>
 </div>
-
+<BR><BR>
 <h2>Benefits of Full-Time Enrolment</h2>
 
 <p>By enrolling as a full-time Sun West Distance Learning Centre learner, your child will have access to:</p>
@@ -74,7 +71,7 @@ in the Elementary Years </a></h2>
 </ul>
 
 <div style="background:#94abac; padding:12px 8px;margin-top:40px;">
-	
+
 <div class="row">
 <div class="col-sm-6 col-xs-12">
 <div class="box-row">
@@ -94,7 +91,7 @@ in the Elementary Years </a></h2>
 </div></div>
 <div class=" col-sm-6 col-xs-12">
 <div class="box-row">
-			
+
 <p align="center" class="icon"><span class="fa-stack fa-3x">
 				  <i class="fa fa-circle fa-stack-2x"></i>
 				  <i class="fa fa-map-signs fa-stack-1x fa-inverse"></i>
@@ -106,13 +103,13 @@ in the Elementary Years </a></h2>
 <div class="row">
 <div class="col-sm-6 col-xs-12">
 <div class="box-row">
-		
+
 <p align="center" class="icon"><span class="fa-stack fa-3x">
 				  <i class="fa fa-circle fa-stack-2x"></i>
 				  <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
 				</span></p>
-				
-				
+
+
 			<h2 align="center">Time</h2>
 
 			<p>Because all courses are online, learners have access to the material and can study at any time of day</p>
@@ -139,7 +136,7 @@ in the Elementary Years </a></h2>
 <p>A home-based learning mentor is any adult who is responsible for the learning instruction and support in the home. It is not always possible for the parent to be the learning mentor. A mentor person may be a parent, guardian, relative, friend, or tutor. Mentors, learners and online instructors work as a team to help learners successfully complete their online courses.</p>
 
 <h2>What does a mentor do?</h2>
-There is a misconception that online learners may not have the same learning supports as their peers in a traditional school setting. However, home-based learners benefit from the personal attention of a learning mentor who can provide daily encouragement and support in a way that meets a learner's individual needs. While the role of the learning mentor may be slightly different as a student progresses from elementary to high school, an effective mentor is key to student success in an online environment. To learn more about the role of a mentor, check out our Sun West DLC <a href="/ckfinder/userfiles/files/Learning%20Mentor%20Guide%20(comp).pdf">Learning Mentor Guide.</a></div>
+There is a misconception that online learners may not have the same learning supports as their peers in a traditional school setting. However, home-based learners benefit from the personal attention of a learning mentor who can provide daily encouragement and support in a way that meets a learner's individual needs. While the role of the learning mentor may be slightly different as a student progresses from elementary to high school, an effective mentor is key to student success in an online environment. To learn more about the role of a mentor, check out our Sun West DLC <a href="/assets/files/Learning-Mentor-Guide-(comp).pdf">Learning Mentor Guide.</a></div>
 
 <h2>What technology is required in a home-based learning environment?</h2>
 
@@ -192,27 +189,27 @@ Classic Media Player (free download)</p>
 <table>
 	<tbody>
 		<tr>
-			<td><a href="#">Microsoft Office Products</a> Office 365 provides families’ access to Microsoft Word, Power Point, Excel. Office 365 email account available upon request.</td>
+			<td>Microsoft Office ProductsOffice 365 provides families’ access to Microsoft Word, Power Point, Excel. Office 365 email account available upon request.</td>
 		</tr>
 		<tr>
 		</tr>
 		<tr>
-			<td><a href="#">Mathletics</a> A Canadian-based math site that provides a fun way for students to practice their basic math skills.</td>
+			<td>Mathletics A Canadian-based math site that provides a fun way for students to practice their basic math skills.</td>
 		</tr>
 		<tr>
-			<td><a href="#">RAZ Kids</a> Helps students improve their reading skills. Students can access a wide library of books at any reading level.</td>
+			<td>RAZ Kids Helps students improve their reading skills. Students can access a wide library of books at any reading level.</td>
 		</tr>
 		<tr>
-			<td><a href="#">Reading Eggs</a> Another fun and engaging way to practice reading skills.</td>
+			<td>Reading Eggs Another fun and engaging way to practice reading skills.</td>
 		</tr>
 		<tr>
-			<td><a href="#">Pearson E-Texts</a> The e-text version of our Pearson textbooks can enhance a child's understanding. Content is provided in an interactive format and additional videos make this online resource option a favourite with students.</td>
+			<td>Pearson E-Texts The e-text version of our Pearson textbooks can enhance a child's understanding. Content is provided in an interactive format and additional videos make this online resource option a favourite with students.</td>
 		</tr>
 		<tr>
-			<td><a href="#">Learn 360</a> A Canadian learning solution; more than 1500 feature films and documentaries are available in English and 1000+ are available in French.</td>
+			<td>Learn 360 A Canadian learning solution; more than 1500 feature films and documentaries are available in English and 1000+ are available in French.</td>
 		</tr>
 		<tr>
-			<td><a href="#">ROVER</a> A video-on-demand service that provides learners with the convenience of immediate access to streamed, educational videos.</td>
+			<td>ROVER A video-on-demand service that provides learners with the convenience of immediate access to streamed, educational videos.</td>
 		</tr>
 	</tbody>
 </table>

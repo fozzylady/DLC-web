@@ -1,22 +1,34 @@
-<section class="regular">
+<section class="container">
 
     <header>
         <h1>{{ title }}</h1>
-        <h2>{{ content }}</h2>
+
     </header>
 
     <article class="list">
-        {{ collection:blog taxonomy="true" paginate="true" as="posts" limit="10" }}
+
+      {{ collection from="blog|course" taxonomy="true" paginate="true" as="posts" }}
             {{ if no_results }}
                 <p>No "{{ title }}" posts.</p>
             {{ /if }}
 
             {{ posts scope="tag" }}
-                {{ partial:block }}
+
+              <div class="col-md-4 animate-box">
+                <div class="fh5co-event">
+                  
+                  <h3><a href="{{ url }}">{{ title }}</a></h3>
+                  <p>{{ content strip_tags="img|a|p" safe_truncate="210" ensure_right="..." }}</p>
+                  <p><a href="{{ url }}">Read More</a></p>
+                </div>
+              </div>
+
+
+
             {{ /posts }}
 
             {{ partial:pagination }}
-        {{ /collection:blog }}
+        {{ /collection }}
     </article>
 
 </section>

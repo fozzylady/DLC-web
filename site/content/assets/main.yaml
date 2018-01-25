@@ -5,3 +5,13 @@ assets:
   instructor_photo/aaron.jpg:
     title: aaron
     alt: aaron
+  files/The-DLC-Buzz-(June-2017).pdf:
+    title: The Buzz
+  files/Power-Engineering-Student-Referral-140616.pdf:
+    title: power engineering student referral
+  img/reading.jpg:
+    title: DLC reading
+    focus: 71-22
+  img/write.jpg:
+    title: writing
+    focus: 30-53

@@ -1,21 +1,10 @@
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
 body {
-  font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Roboto","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 15px;
-  line-height: 1.7;
-  color: #828282;
+  color: #565656;
+  font-weight: 300;
+  line-height: 1.7em;
   background: #fff; }
 
 #page {
@@ -56,9 +45,10 @@ p {
   margin-bottom: 20px; }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
-  font-family: "Roboto", serif;
-  font-weight: 400;
+  font-family: "open sans", verdana, sans-serif !important;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #616161;
   margin: 0 0 20px 0; }
 
 ::-webkit-selection {
@@ -77,18 +67,18 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 0;
   z-index: 1001; }
-  
-  
+
+
   .fh5co-nav .top-menu {
     background:#fff;}
-    
-    
+
+
   .fh5co-nav .top {
-   
+
     padding: 0px 0;
     margin-bottom: 0; }
-    
-    
+
+
     .fh5co-nav .top .num, .fh5co-nav .top .fh5co-social, .fh5co-nav .top .site {
       padding: 5px 12px; }
       @media screen and (max-width: 768px) {
@@ -202,10 +192,10 @@ h1, h2, h3, h4, h5, h6, figure {
         .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
           color: #000; }
       .fh5co-nav ul li a.btn-cta {
-       
+
         color: #fff; }
         .fh5co-nav ul li a.btn-cta {
-          background: #2d6cdf;
+          background: #534462;
           padding: 4px 10px;
           display: -moz-inline-stack;
           display: inline-block;
@@ -466,22 +456,7 @@ h1, h2, h3, h4, h5, h6, figure {
       display: block;
       margin-bottom: 20px;
       font-size: 14px; }
-    .course .desc .btn-course {
-      border: 2px solid rgba(0, 0, 0, 0.8) !important;
-      background: transparent;
-      color: rgba(0, 0, 0, 0.8) !important;
-      font-size: 12px;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: 1px;
-      padding: 11px 15px !important;
-      -webkit-border-radius: 0;
-      -moz-border-radius: 0;
-      -ms-border-radius: 0;
-      border-radius: 0; }
-      .course .desc .btn-course:hover {
-        background: rgba(0, 0, 0, 0.8) !important;
-        color: white !important; }
+
   .course:hover .course-img {
     -webkit-box-shadow: inset -70px 0px 77px 11px rgba(0, 0, 0, 0.74);
     -moz-box-shadow: inset -70px 0px 77px 11px rgba(0, 0, 0, 0.74);
@@ -548,10 +523,33 @@ h1, h2, h3, h4, h5, h6, figure {
     .fh5co-contact-info ul li a {
       color: rgba(0, 0, 0, 0.8); }
 
+      ul.fa-ul{
+        margin-left: 0;
+          padding-left: 2em;
+        margin-bottom: 10px;
+      }
+      ul.fa-ul li{
+      	text-align: left;
+        	padding-left:20px;
+        	margin-bottom:10px;
+      	font-weight:300;
+      }
+      .fa-ul li:before {
+      	font-family: FontAwesome;
+        content: "\f14a";
+      	display: inline-block;
+        width: 1.4em;
+        margin-left: -1.4em;
+      }
+      ul.fa-ul.nomargin li{
+      	margin-left: -2em;
+      }
+      p.icon{color:#FFC62F;}
+
+
 .fh5co-heading {
   margin-bottom: 5em; }
   .fh5co-heading h2 {
-    font-size: 24px;
     margin-bottom: 20px;
     line-height: 1.5;
     color: #000;
@@ -1095,7 +1093,9 @@ h1, h2, h3, h4, h5, h6, figure {
     .gototop a:hover, .gototop a:active, .gototop a:focus {
       text-decoration: none;
       outline: none; }
-
+    .icon-arrow-up:before {
+        content: "\f077";
+        font: normal normal normal 14px/1 FontAwesome;}
 .fh5co-nav-toggle {
   width: 25px;
   height: 25px;
@@ -1207,18 +1207,18 @@ h1, h2, h3, h4, h5, h6, figure {
     outline: none !important; }
 
 .btn-primary {
-  background: #2D6CDF;
+  background: #062c9a;
   color: #fff;
-  border: 2px solid #2D6CDF; }
+  border: 2px solid #062c9a; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #437be2 !important;
-    border-color: #437be2 !important; }
+    background: #cb9b3d !important;
+    border-color: #cb9b3d !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #2D6CDF;
-    border: 2px solid #2D6CDF; }
+    color: #062c9a;
+    border: 2px solid #062c9a; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #2D6CDF;
+      background: #cb9b3d;
       color: #fff; }
 
 .btn-success {
@@ -1237,18 +1237,18 @@ h1, h2, h3, h4, h5, h6, figure {
       color: #fff; }
 
 .btn-info {
-  background: #5bc0de;
-  color: #fff;
-  border: 2px solid #5bc0de; }
+  background: #d7d7c6;
+  color: #242424;
+  border: 2px solid #d7d7c6; }
   .btn-info:hover, .btn-info:focus, .btn-info:active {
-    background: #46b8da !important;
-    border-color: #46b8da !important; }
+    background: #8E7B51 !important;
+    border-color: #8E7B51 !important; }
   .btn-info.btn-outline {
     background: transparent;
     color: #5bc0de;
     border: 2px solid #5bc0de; }
     .btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
-      background: #5bc0de;
+      background: #8E7B51;
       color: #fff; }
 
 .btn-warning {
@@ -1308,12 +1308,15 @@ h1, h2, h3, h4, h5, h6, figure {
     transition: 0.2s; }
   .btn.with-arrow:hover {
     padding-right: 50px; }
-    .btn.with-arrow:hover i {
+  .btn.with-arrow:hover i {
       color: #fff;
       right: 18px;
       visibility: visible;
       opacity: 1; }
-
+  .icon-arrow-right:before {
+        content: "\f054";
+        font: normal normal normal 14px/1 FontAwesome;
+      }
 .form-control {
   box-shadow: none;
   background: transparent;
@@ -1355,12 +1358,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .yearbook {
     padding-bottom: 40px;
 }
-	
+
 .yearbook ul {
     list-style-type: none;
     margin: 0px 0px 0px 40px;
     padding: 0px;}
-    
+
 .yearbook li {
     display: inline-block;
     vertical-align: top;
@@ -1370,8 +1373,8 @@ h1, h2, h3, h4, h5, h6, figure {
     padding-top: 20px;
     width: 190px;
     height: 300px;}
-    
-    
+
+
 	.yearbook .portrait {
     width: 130px;
     height: 163px;
@@ -1379,7 +1382,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background-size: 100%;
     background-repeat: no-repeat;
     }
-    
+
     .yearbook li a {
     font-size: 15px;
     font-weight: 500;
@@ -1394,8 +1397,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	font-size: 13px;
     font-weight: normal;
     margin-top: 3px;}
-    
+
  p.icon {
     color: #FFC62F;
-}   
-  
+}

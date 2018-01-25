@@ -1,8 +1,7 @@
 photo: /assets/instructor_photo/taraG.jpg
 first_name: Tara
 last_name: George
-department:
-  - Office Staff and Reception
+department: Office Staff and Reception
 email: Tara.George@sunwestsd.ca
 job_title: Front Office Staff
 title: Tara George

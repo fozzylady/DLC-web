@@ -1,28 +1,41 @@
-<section class="regular">
-	<header>
-		<h6>Search Results</h6>
+
+	<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+<BR><BR>
+<h1>Search Results</h1>
 		<form role="search" action="/search">
 			<input type="text" name="q" class="form-control giant search" value="{{ get:q }}" placeholder="Search">
 		</form>
-	</header>
-	<article class="content">
+	</div></div></div>
+
+
+	<div class="container">
 		{{ search:results }}
 			{{ if no_results }}
 				No results.
 			{{ /if }}
 
 			<div class="block">
-				<a href="{{ url }}">
 
-					{{ if intro_image  }}
-						<img src="{{ glide src='{ intro_image }' square='140' fit='crop' }}" width="140" height="140" class="small-image">
-					{{ elseif hero_image  }}
-						<img src="{{ glide src='{ hero_image }' square='140' fit='crop' }}" width="140" height="140" class="small-image">
-					{{ /if }}
+
+
+					<div class="col-md-4 animate-box">
+						<div class="fh5co-event">
+
+							<h3><a href="{{ url }}">{{ title }}</a></h3>
+							<p>{{ description strip_tags="img|a|p" safe_truncate="110" ensure_right="..." }}</p>
+							<p><a href="{{ url }}">Read More</a></p>
+						</div>
+					</div>
+
+			<!--	<a href="{{ url }}">
+
+
 
 					<h3>{{ title }}</h3>
 
-					<p>{{ content strip_tags="img|a|p" safe_truncate="180|..." }}</p>
+					<p>{{ description strip_tags="img|a|p" safe_truncate="180|..." }}</p>
 
 					<code>{{ url }}</code>
 
@@ -35,8 +48,7 @@
 							{{ date format="M j, Y" }}
 						{{ /if }}
 					</div>
-				</a>
+				</a> -->
 			</div>
 		{{ /search:results }}
-	</article>
-</section>
+</div>

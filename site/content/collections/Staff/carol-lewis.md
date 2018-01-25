@@ -1,8 +1,7 @@
 photo: /assets/instructor_photo/carolL.jpg
-first_name: 'Carol '
+first_name: Carol
 last_name: Lewis
-department:
-  - Office Staff and Reception
+department: Office Staff and Reception
 email: carol.lewis@sunwestsd.ca
 job_title: Front Office Staff
 title: Carol Lewis

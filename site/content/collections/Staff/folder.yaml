@@ -1,4 +1,4 @@
-order:datestamp
+order: 
 title: Staff
 fieldset: Staff
 template: staff/post

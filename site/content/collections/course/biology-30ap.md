@@ -1,13 +1,12 @@
 title: Biology 30 AP
+delivery_method: Online Asynchronous
 description: >
-  | Biology 30 AP is an introductory college-level biology course that is equivalent to a first year,
+  Biology 30 AP is an introductory college-level biology course that is equivalent to a first year,
   three-credit biology course, and is meant to prepare students for the AP Biology Exam. This is a
   terrific course for students who are thinking about entering medicine, another scientific field in
   post-secondary, or just enjoy learning about the living world. Students cultivate their
   understanding of biology through inquiry-based investigations; critically analyzing recent
   scientific discoveries in the fields of medicine, genetics, and evolution.
-instructor:
-  - -
 supplied_resources: Campbell Biology Ninth Edition, Reece, Urry, Cain, Wasserman, Minorsky, and Jackson
 suggested_career_pathways: |
   <ul>
@@ -34,9 +33,8 @@ units_of_study:
   - Physiology
   - Botany
   - Ecology
-delivery_method: Online Asynchronous
+id: 52fa2cad-cad8-4b68-897f-8e1ed608ed92
 tags:
   - biology
   - grade-12
   - ap
-id: 52fa2cad-cad8-4b68-897f-8e1ed608ed92

@@ -1,5 +1,5 @@
 ---
-title: Our Course
+title: DLC Courses
 mount: course
 template: course/index
 id: b36ba538-3889-46bb-a166-45fa0942b0a6
@@ -7,7 +7,6 @@ id: b36ba538-3889-46bb-a166-45fa0942b0a6
 <div class="row">
 <div class="col-md-8 col-sm-6 col-xs-12">
 <div class="box-row">
-
 
 <h2>So many to choose from at every grade and learning level</h2>
 
@@ -30,7 +29,7 @@ id: b36ba538-3889-46bb-a166-45fa0942b0a6
 <p>Some students like to set their own pace and timelines… for others this is just extra work.   <br>
 Learn more about how our Guided Learning Pathway provides additional supports for students who want to complete the course within one semester.  </p>
 <br>
-<a href="/guided-learning-pathway" class="btn">Read More</a>
+<a href="/courses/guided-learning-pathway" class="btn btn-primary">Read More</a>
 </div>
 </div>
 </div>

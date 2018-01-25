@@ -5,7 +5,7 @@ collections:
 
 taxonomies:
   tags: '/blog/tags/{slug}'
-  tags: '/coourse/tags/{slug}'
+  tags: '/course/tags/{slug}'
 routes:
   /blog/tags: blog/taxonomies
   /search: search

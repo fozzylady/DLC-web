@@ -19,7 +19,7 @@ fields:
     display: Last Name
     width: 50
   department:
-    type: list
+    type: text
     display: Department
   email:
     type: text

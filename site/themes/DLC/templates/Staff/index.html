@@ -1,6 +1,6 @@
 <section class="container">
 
-		<h2>{{ title }}</h2>
+
 		{{ content }}
 
 
@@ -9,29 +9,71 @@
 <section class="container">
 
 	<article class="yearbook">
+		<h1>Administration</h1>
 		<ul>
-		{{ collection:Staff as="entries" sort="department"}}
-		
+		{{ collection:Staff  department:contains="Administration" }}
 
 
-			{{ entries }}
 
 
 			<li>
-
-
-			<div class="portrait" style="background-image: url({{ url }}{{ photo|img }});">&nbsp;</div>
-			<a class="name" href="mailto:{{ email }}" target="blank">{{ first_name }} {{ last_name }}</a>
-
-			<h3 class="title"><a class="name" href="mailto:{{ email }}" target="blank">{{ job_title }}</a></h3>
+				<div class="portrait" style="background-image: url({{ photo|img }});">&nbsp;</div>
+				<a class="name" href="mailto:{{ email }}" target="blank">{{ first_name }} {{ last_name }}</a>
+				<h3 class="title"><a class="name" href="mailto:{{ email }}" target="blank">{{ job_title }}</a></h3>
 			</li>
 
 
 
-			 {{ /entries }}
-
-	
 		{{ /collection:Staff }}
-	</ul></article>
+	</ul>
+</article>
+
+
+
+<article class="yearbook">
+	<h1>Office Staff and Reception</h1>
+	<ul>
+	{{ collection:Staff  department:contains="Office Staff and Reception" }}
+
+
+
+
+		<li>
+			<div class="portrait" style="background-image: url({{ photo|img }});">&nbsp;</div>
+			<a class="name" href="mailto:{{ email }}" target="blank">{{ first_name }} {{ last_name }}</a>
+			<h3 class="title"><a class="name" href="mailto:{{ email }}" target="blank">{{ job_title }}</a></h3>
+		</li>
+
+
+
+	{{ /collection:Staff }}
+</ul>
+</article>
+
+
+
+
+
+<article class="yearbook">
+	<h1>DLC Team</h1>
+	<ul>
+	{{ collection:Staff  department:contains="DLC Team" }}
+
+
+
+
+		<li>
+			<div class="portrait" style="background-image: url({{ photo|img }});">&nbsp;</div>
+			<a class="name" href="mailto:{{ email }}" target="blank">{{ first_name }} {{ last_name }}</a>
+			<h3 class="title"><a class="name" href="mailto:{{ email }}" target="blank">{{ job_title }}</a></h3>
+		</li>
+
+
+
+	{{ /collection:Staff }}
+</ul>
+</article>
+
+
 
 </section>

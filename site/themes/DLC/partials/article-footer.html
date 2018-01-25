@@ -1,7 +1,9 @@
 <footer class="list article-footer">
-	<div class="regular">
-		<h6>Next Up <em>on the</em> Blog</h6>
-		{{ collection:next in="blog" limit="2" scope="tag" url:not="{url}"}}
+	<BR><BR>
+		<hr>
+	<div class="container">
+		<h6>Other <em>interesting</em> News & Events</h6>
+		{{ collection:next in="blog" limit="3" scope="tag" url:not="{url}"}}
 			{{ partial:block }}
 		{{ /collection:next }}
 	</div>

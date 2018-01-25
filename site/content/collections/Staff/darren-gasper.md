@@ -1,8 +1,7 @@
 photo: /assets/instructor_photo/darrenG.jpg
 first_name: Darren
 last_name: Gasper
-department:
-  - administration
+department: Administration
 email: darren.gasper@sunwestsd.ca
 job_title: Superintendent of Education
 title: Darren Gasper
